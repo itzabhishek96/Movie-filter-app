@@ -32,8 +32,12 @@ function MovieFilterApp() {
   return (
     <div className="max-w-6xl mx-auto px-4">
       <div className="flex flex-wrap justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8 mt-4">
+        <div className='ml-4 px-2'>
         <FilterDropdown label="Language" options={getUniqueValues('movielanguages')} selectedValue={filters.language} onChange={(value) => handleFilterChange('language', value)} />
+        </div>
+        <div>
         <FilterDropdown label="Country" options={getUniqueValues('moviecountries')} selectedValue={filters.country} onChange={(value) => handleFilterChange('country', value)} />
+        </div>
         <div className="relative flex items-center">
           <input type="text" placeholder="Search movie" className="p-2 pl-10 pr-4 border border-gray-300 rounded focus:outline-none shadow" value={searchQuery} onChange={(e) => handleSearchChange(e.target.value)} />
           <BiSearch className="absolute top-0 left-0 mt-3 ml-3 text-gray-500" size={24} />
