@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/itzabhishek96/MOVIE-FILTER-APP/static/css/main.1d9b331a.css",
+    "main.js": "/itzabhishek96/MOVIE-FILTER-APP/static/js/main.c7f2c6e4.js",
+    "index.html": "/itzabhishek96/MOVIE-FILTER-APP/index.html",
+    "main.1d9b331a.css.map": "/itzabhishek96/MOVIE-FILTER-APP/static/css/main.1d9b331a.css.map",
+    "main.c7f2c6e4.js.map": "/itzabhishek96/MOVIE-FILTER-APP/static/js/main.c7f2c6e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d9b331a.css",
+    "static/js/main.c7f2c6e4.js"
+  ]
+}
